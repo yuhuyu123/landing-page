@@ -32,6 +32,7 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
     padding-left: 100px;
     align-items: center;
     margin-right: 10px;
@@ -66,6 +67,7 @@ ul {
 
 .text-title,
 .header-logo {
+    
     color: #F9FAF8;
 }
 
@@ -96,9 +98,11 @@ ul {
 
 .img-top {
     background-color: gray;
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
     margin-right: 200px;
+    line-height: 100px;
+    text-align: center;
 }
 
 .button-topa {
@@ -126,8 +130,113 @@ ul {
 
 .center {
     display: flex;
+    flex-direction: column;
     padding: 35px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items:center;
     height: 350px;
 }
+.center-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: #1F2937;
 
+    }
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.images img {
+    display: block;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    margin-bottom: 15px;
+}
+
+.images .text {
+    width: 100px;
+    text-align: center;
+
+}
+.quote-container {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgray;
+    height: 300px;
+
+}
+
+.quote {
+    display: flex;
+    width: 800px;
+}
+
+.end-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 200px;
+    padding-left: ;
+    }
+
+
+
+.centered-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    height: 110px;
+    width: 600px;
+    flex-shrink: 0;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: orangered;
+    font-size: 10px;
+    font-family:'Courier New', Courier, monospace ;
+    font-style: ;
+    height: 30px;
+}
+
+.button-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    height: 40px;
+    width: 110px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid white;
+    border-color: #F9FAF8;
+
+}
